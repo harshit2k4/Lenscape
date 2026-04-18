@@ -4,6 +4,9 @@ include:
 analyzer:
   exclude:
     - lib/l10n/gen/*
+    - lib/l10n/arb/*
+    - packages/**/*.gen.dart
+    - packages/**/*.g.dart
 linter:
   rules:
     public_member_api_docs: false
